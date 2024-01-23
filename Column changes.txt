@@ -1,0 +1,20 @@
+gps provider -  unknown
+Data ping time - remove column as it if of no use in the further process
+current location,DestinationLocation,origin location - to be removed for effective data analysis, usage and memory
+actual eta - remove rows with null values as the percentage is less
+curr lon, lat - unknown
+on time, delay time -  club to get a new column
+origin & destination location code - unknown
+trip end date -  replace with 0
+transport distance - replace with mean or knn
+vehicle type - unknown
+min kms - replace with 0
+driver name - unknown
+ mobile - remove columns
+customer & supplier name code - remove columns
+	
+
+origin_lat_lon ,dest_lat_lon - split with comma
+
+
+
